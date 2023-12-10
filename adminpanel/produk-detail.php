@@ -50,6 +50,7 @@ function generateRandomString($length = 10)
 
     }
 
+
     .image-container label {
         font-size: 20px;
         margin-bottom: 10px;
@@ -66,7 +67,7 @@ function generateRandomString($length = 10)
 
     <div class="container mt-5 mb-5">
         <div class="my-5 col-12 col-md-6 mx-auto">
-            <div class="card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+            <div class="card" style=" background-color: rgba(173, 216, 230, 0.6); box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
                 <div class="card-body">
                     <h2>Detail Produk</h2>
 
