@@ -162,7 +162,7 @@ function generateRandomString($length = 10)
 
                     if ($queryTambah) {
                         ?>
-                        <div class="alert alert-primary mt-3" role="alert">
+                        <div class="alert alert-info mt-3" role="alert">
                             Produk Berhasil Ditambah
                         </div>
                         <meta http-equiv="refresh" content="1.5; url = produk.php">

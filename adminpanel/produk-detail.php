@@ -57,7 +57,7 @@ function generateRandomString($length = 10)
     }
 
     .image-container img {
-        width: 150px;
+        width: 180px;
 
     }
 

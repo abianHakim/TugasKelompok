@@ -31,11 +31,11 @@ require "../koneksi.php";
             <form action="" method="post">
                 <div>
                     <label for="username">username</label>
-                    <input type="text" class="form-control" name="username" id="username">
+                    <input type="text" class="form-control" name="username" id="username" autocomplete=off>
                 </div>
                 <div>
                     <label for="password">password</label>
-                    <input type="password" class="form-control" name="password" id="password">
+                    <input type="password" class="form-control" name="password" id="password" autocomplete=off>
                 </div>
                 <div>
                     <button class="btn btn-success form-control mt-3" type="sumbit" name="loginbtn">
@@ -57,9 +57,9 @@ require "../koneksi.php";
 
                 if ($countdata > 0) {
                     if (password_verify($password, $data['password'])) {
-                    $_SESSION['username'] = $data['username'];
-                    $_SESSION['login'] = true;
-                    header('location: ../adminpanel');
+                        $_SESSION['username'] = $data['username'];
+                        $_SESSION['login'] = true;
+                        header('location: ../adminpanel');
                     } else {
             ?>
                         <div class="alert alert-warning" role="alert">

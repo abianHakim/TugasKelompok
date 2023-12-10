@@ -1,0 +1,78 @@
+.warna1 {
+  background-color: #876445;
+}
+
+.warna2 {
+  background-color: #ca965c;
+}
+
+.warna3 {
+  background-color: #eec373;
+}
+
+.warna4 {
+  background-color: #f4dfba;
+}
+
+.banner {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image/mcJOBI6oPa.png);
+}
+
+.highlighted-kategori {
+  height: 270px;
+}
+
+.kategori-baju-pria {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image/pria.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-baju-wanita {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image/wanita.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-sepatu {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../image/sepatu.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.highlighted-kategori a {
+  text-decoration: none;
+  color: white;
+}
+
+.terlaris {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text-harga {
+  font-size: 18px;
+}
+
+.image-box {
+  height: 250px;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.content-subscribe {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.content-subscribe a {
+   color: white;
+}

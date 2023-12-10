@@ -26,6 +26,7 @@ require "../koneksi.php";
 </style>
 
 <body>
+    <?php require "navbar.php"; ?>
     <div class="container mt-3">
         <a href="javascript:history.back()" class="btn btn-light btn-hover">
             <i class="fa-solid fa-arrow-left"></i> Back
@@ -63,7 +64,7 @@ require "../koneksi.php";
                             $querySimpan = mysqli_query($con, "INSERT INTO kategori (nama) VALUES ('$kategori')");
                             if ($querySimpan) {
                             ?>
-                                <div class="alert alert-primary mt-3" role="alert">
+                                <div class="alert alert-info mt-3" role="alert">
                                     Kategori Berhasil Tersimpan
                                 </div>
                                 <meta http-equiv="refresh" content="1.5; url = kategori.php">
