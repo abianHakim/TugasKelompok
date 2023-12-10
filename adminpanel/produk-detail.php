@@ -60,10 +60,25 @@ function generateRandomString($length = 10)
         width: 150px;
 
     }
+
+    .btn-hover {
+        transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    }
+
+    .btn-hover:hover {
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
 </style>
 
 <body>
     <?php require "navbar.php"; ?>
+
+    <div class="container mt-3">
+        <a href="javascript:history.back()" class="btn btn-light btn-hover">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </a>
+    </div>
 
     <div class="container mt-5 mb-5">
         <div class="my-5 col-12 col-md-6 mx-auto">

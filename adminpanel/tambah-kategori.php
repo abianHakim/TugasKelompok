@@ -14,7 +14,23 @@ require "../koneksi.php";
     <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css">
 </head>
 
+<style>
+    .btn-hover {
+        transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    }
+
+    .btn-hover:hover {
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
 <body>
+    <div class="container mt-3">
+        <a href="javascript:history.back()" class="btn btn-light btn-hover">
+            <i class="fa-solid fa-arrow-left"></i> Back
+        </a>
+    </div>
     <div class="container mt-5">
         <div class="my-5 col-12 col-md-6 mx-auto">
             <div class="card" style="background-color: rgba(173, 216, 230, 0.6); box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
@@ -62,6 +78,9 @@ require "../koneksi.php";
             </div>
         </div>
     </div>
+
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../fontawesome/js/all.min.js"></script>
 </body>
 
 </html>
