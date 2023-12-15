@@ -102,7 +102,8 @@ $hitung = mysqli_num_rows($queryProduk);
 
 
 
-
+    <!-- Footer -->
+    <?php require "footer.php" ?>
 
 
 
